@@ -1,0 +1,43 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.stage{
+    text-align: center;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 1px solid grey;
+    display: inline-block;
+}
+.o{
+position: relative;
+}
+.o:after{
+    content: "\1F493";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.x{
+    position: relative;
+    }
+.x:after{
+        content: "\1F525";
+        font-size: 50px;
+        line-height: 100px;
+        position: absolute;
+        top:0px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+    }
+    .btn{
+        width: 100px;
+    }
